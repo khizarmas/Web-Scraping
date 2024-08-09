@@ -6,7 +6,7 @@ from ..items import PropertyscraperItem
 
 
 class QuoteSpider(scrapy.Spider):
-    name = "quotes"
+    name = "property"
     allowed_domains = ["bayut.sa"]
     start_urls = [
         "https://www.bayut.sa/en/western-region/apartments-for-rent-in-jeddah/"
